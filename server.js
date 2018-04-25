@@ -1,8 +1,9 @@
 /* eslint no-console: off */
-const http = require('http');
-const app = require('./lib/app');
 const dotenv = require('dotenv');
 dotenv.config();
+
+const http = require('http');
+const app = require('./lib/app');
 
 const PORT = process.env.PORT || 9000;
 
