@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "test:watch": "nodemon --exec mocha"
+    "test:watch": "nodemon --exec mocha",
+    "start": "node server",
+    "start:watch": "nodemon server"
   },
   "author": "David Goodwin <goodwid@gmail.com>",
   "license": "MIT",
